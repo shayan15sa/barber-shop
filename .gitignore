@@ -1,0 +1,38 @@
+
+# === GLOBAL ===
+.DS_Store
+Thumbs.db
+*.log
+*.env
+*.sqlite
+*.db
+
+# === PYTHON BACKEND ===
+back/__pycache__/
+back/*.pyc
+back/*.pyo
+back/*.pyd
+back/instance/
+back/.mypy_cache/
+back/.pytest_cache/
+back/.venv/
+back/venv/
+back/env/
+back/database.db
+
+# === VUE FRONTEND ===
+barber-shop/node_modules/
+barber-shop/dist/
+barber-shop/.vite/
+barber-shop/.DS_Store
+barber-shop/.env*
+barber-shop/.output/
+barber-shop/.cache/
+barber-shop/coverage/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
